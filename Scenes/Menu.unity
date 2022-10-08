@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2713,7 +2713,6 @@ GameObject:
   - component: {fileID: 337402632}
   - component: {fileID: 337402631}
   - component: {fileID: 337402630}
-  - component: {fileID: 337402629}
   m_Layer: 0
   m_Name: FichaDeLuzSala
   m_TagString: Untagged
@@ -2736,21 +2735,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &337402629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337402627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b23dca23c84308419a2b525e7e0b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Luces:
-  - {fileID: 464343997}
-  - {fileID: 1487832}
 --- !u!65 &337402630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3582,7 +3566,6 @@ GameObject:
   - component: {fileID: 444497820}
   - component: {fileID: 444497824}
   - component: {fileID: 444497823}
-  - component: {fileID: 444497822}
   - component: {fileID: 444497821}
   m_Layer: 0
   m_Name: Laptop
@@ -3620,23 +3603,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.52771616, y: 0.32850742, z: 0.46614346}
   m_Center: {x: 0, y: 0.14817831, z: 0}
---- !u!114 &444497822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444497819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 231d16bb097d7d54aa42be2d6564a477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStads: {fileID: 0}
-  ConsumoDeEnergia: 15
-  Diversion: 1
-  Conocimiento: 3
-  VidaSocial: 2
 --- !u!23 &444497823
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5128,7 +5094,6 @@ GameObject:
   - component: {fileID: 745289297}
   - component: {fileID: 745289296}
   - component: {fileID: 745289295}
-  - component: {fileID: 745289294}
   m_Layer: 0
   m_Name: Arcade
   m_TagString: Untagged
@@ -5151,23 +5116,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &745289294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745289292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 231d16bb097d7d54aa42be2d6564a477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStads: {fileID: 0}
-  ConsumoDeEnergia: 60
-  Diversion: 15
-  Conocimiento: 0
-  VidaSocial: -4
 --- !u!65 &745289295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5535,7 +5483,6 @@ GameObject:
   - component: {fileID: 772554838}
   - component: {fileID: 772554837}
   - component: {fileID: 772554836}
-  - component: {fileID: 772554835}
   m_Layer: 0
   m_Name: Tv_unit
   m_TagString: Untagged
@@ -5565,20 +5512,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &772554835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772554833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247b563101af74408d0959fa58afa0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Video: {fileID: 933392255}
-  luz: {fileID: 1091629088}
 --- !u!65 &772554836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6050,7 +5983,6 @@ GameObject:
   - component: {fileID: 786494395}
   - component: {fileID: 786494394}
   - component: {fileID: 786494393}
-  - component: {fileID: 786494392}
   m_Layer: 0
   m_Name: FichaDeLuz Habitacion
   m_TagString: Untagged
@@ -6073,20 +6005,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &786494392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786494390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b23dca23c84308419a2b525e7e0b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Luces:
-  - {fileID: 1122455066}
 --- !u!65 &786494393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6539,8 +6457,6 @@ GameObject:
   m_Component:
   - component: {fileID: 880928187}
   - component: {fileID: 880928190}
-  - component: {fileID: 880928188}
-  - component: {fileID: 880928189}
   m_Layer: 0
   m_Name: Bateria
   m_TagString: Untagged
@@ -6566,48 +6482,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &880928188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880928186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75a3f935266d3c3499068ff7e6ef6d7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ItemsNecesarios:
-  - {fileID: 1945091013}
-  - {fileID: 1059945145}
-  - {fileID: 1616924564}
-  ItemsConseguidos:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &880928189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880928186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20e876f61f603f34fa202d93d5f29bc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  Camara: {fileID: 1582448790}
-  PanelInstrucciones: {fileID: 0}
-  PanelDatos: {fileID: 0}
-  Bombo: {fileID: 354017611}
-  PlatilloDoble: {fileID: 1740144153}
-  Platillo: {fileID: 1945091013}
-  Tombs: {fileID: 2118291297}
-  BomBoIz: {fileID: 1059945145}
-  BomBoDer: {fileID: 544673862}
 --- !u!65 &880928190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6926,7 +6800,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7039,7 +6913,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
@@ -7419,7 +7293,6 @@ GameObject:
   - component: {fileID: 1017085087}
   - component: {fileID: 1017085086}
   - component: {fileID: 1017085085}
-  - component: {fileID: 1017085084}
   m_Layer: 0
   m_Name: FichaDeLuzPasillo
   m_TagString: Untagged
@@ -7442,20 +7315,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0.643, y: 0, z: 0}
---- !u!114 &1017085084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017085082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b23dca23c84308419a2b525e7e0b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Luces:
-  - {fileID: 1931026905}
 --- !u!65 &1017085085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8032,7 +7891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UbicacionDeseada: {fileID: 653777227}
-  ConjuntoDeObjetos: {fileID: 880928188}
+  ConjuntoDeObjetos: {fileID: 0}
   SonidoAgarrar: {fileID: 8300000, guid: e42728893e676304aaee4da4cd164e24, type: 3}
   AudioGeneral: {fileID: 0}
 --- !u!23 &1059945151
@@ -8965,7 +8824,6 @@ GameObject:
   - component: {fileID: 1298055230}
   - component: {fileID: 1298055229}
   - component: {fileID: 1298055228}
-  - component: {fileID: 1298055227}
   m_Layer: 0
   m_Name: FichaDeLuzBano
   m_TagString: Untagged
@@ -8988,20 +8846,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1298055227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1298055225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b23dca23c84308419a2b525e7e0b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Luces:
-  - {fileID: 1389309013}
 --- !u!65 &1298055228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9969,7 +9813,6 @@ GameObject:
   - component: {fileID: 1403035323}
   - component: {fileID: 1403035322}
   - component: {fileID: 1403035321}
-  - component: {fileID: 1403035320}
   m_Layer: 0
   m_Name: Libros
   m_TagString: Untagged
@@ -9992,23 +9835,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1403035320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403035318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 231d16bb097d7d54aa42be2d6564a477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStads: {fileID: 0}
-  ConsumoDeEnergia: 20
-  Diversion: 2
-  Conocimiento: 20
-  VidaSocial: 0
 --- !u!65 &1403035321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11077,7 +10903,6 @@ GameObject:
   - component: {fileID: 1540887405}
   - component: {fileID: 1540887404}
   - component: {fileID: 1540887403}
-  - component: {fileID: 1540887402}
   m_Layer: 0
   m_Name: chess
   m_TagString: Untagged
@@ -11100,23 +10925,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1540887402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540887400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 231d16bb097d7d54aa42be2d6564a477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStads: {fileID: 0}
-  ConsumoDeEnergia: 15
-  Diversion: 3
-  Conocimiento: 10
-  VidaSocial: 2
 --- !u!65 &1540887403
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11480,7 +11288,6 @@ GameObject:
   - component: {fileID: 1589958244}
   - component: {fileID: 1589958243}
   - component: {fileID: 1589958242}
-  - component: {fileID: 1589958241}
   m_Layer: 0
   m_Name: PuertaDeSalida
   m_TagString: Untagged
@@ -11503,22 +11310,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1589958241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589958239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d194373dde8943e43b1765a2369e678f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  PanelAMostrar: {fileID: 0}
-  PanelEstadisticas: {fileID: 0}
-  ReiniciarInteracciones: 0
 --- !u!65 &1589958242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11659,7 +11450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UbicacionDeseada: {fileID: 931615004}
-  ConjuntoDeObjetos: {fileID: 880928188}
+  ConjuntoDeObjetos: {fileID: 0}
   SonidoAgarrar: {fileID: 8300000, guid: e42728893e676304aaee4da4cd164e24, type: 3}
   AudioGeneral: {fileID: 0}
 --- !u!23 &1616924569
@@ -12341,7 +12132,6 @@ GameObject:
   - component: {fileID: 1689838538}
   - component: {fileID: 1689838537}
   - component: {fileID: 1689838536}
-  - component: {fileID: 1689838535}
   m_Layer: 0
   m_Name: Bed
   m_TagString: Untagged
@@ -12375,22 +12165,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5.992805, y: -0.029027505}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1689838535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689838533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d194373dde8943e43b1765a2369e678f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  PanelAMostrar: {fileID: 0}
-  PanelEstadisticas: {fileID: 0}
-  ReiniciarInteracciones: 1
 --- !u!65 &1689838536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12918,8 +12692,6 @@ GameObject:
   - component: {fileID: 1757725689}
   - component: {fileID: 1757725688}
   - component: {fileID: 1757725687}
-  - component: {fileID: 1757725686}
-  - component: {fileID: 1757725685}
   m_Layer: 0
   m_Name: fridge
   m_TagString: Untagged
@@ -12942,38 +12714,6 @@ Transform:
   m_Father: {fileID: 2027775262}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1757725685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757725683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a53e6408c3f8bdf4cb5d4676b4709042, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObjetoALimitar: {fileID: 1757725686}
-  Repeticiones: 0
-  CantidadDeRepetiociones: 2
---- !u!114 &1757725686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757725683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 231d16bb097d7d54aa42be2d6564a477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStads: {fileID: 0}
-  ConsumoDeEnergia: -50
-  Diversion: 0
-  Conocimiento: 0
-  VidaSocial: 0
 --- !u!65 &1757725687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14122,7 +13862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UbicacionDeseada: {fileID: 19190043}
-  ConjuntoDeObjetos: {fileID: 880928188}
+  ConjuntoDeObjetos: {fileID: 0}
   SonidoAgarrar: {fileID: 8300000, guid: e42728893e676304aaee4da4cd164e24, type: 3}
   AudioGeneral: {fileID: 0}
 --- !u!23 &1945091018

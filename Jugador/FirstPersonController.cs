@@ -72,6 +72,8 @@ public class FirstPersonController : MonoBehaviour
 
     }//Esto se reproduce 1 sola vez al comienzo de mi juego
 
+
+
     void Update()
     {
         Movement();
