@@ -1,13 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerStads : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public string Nombre;
-    public string Edad;
-    public string Genero;
+    [SerializeField] private string Nombre;
+    [SerializeField] private int Edad;
+    [SerializeField] private string Genero;
 
     [Header("Student Stads")]
 
@@ -20,7 +20,7 @@ public class PlayerStads : MonoBehaviour
 
     [Header("Scene Stads")]
     public int NumeroDeDias;
-    public void Sett(string Nombre,string Edad,string Genero)
+    public void SettAll(string Nombre,int Edad,string Genero)
     {
         this.Nombre = Nombre;
         this.Edad = Edad;
@@ -39,7 +39,6 @@ public class PlayerStads : MonoBehaviour
 
 
     }
-
     float Limitar(float numero)
     {
         if (numero < 0)
@@ -47,5 +46,34 @@ public class PlayerStads : MonoBehaviour
             numero = 0;
         }
         return numero;
+    }
+
+
+    public void LoadData()
+    {
+        SettAll(PlayerPrefs.GetString("Nombre"),PlayerPrefs.GetInt("Edad"),PlayerPrefs.GetString("Genero"));
+
+        Energia = PlayerPrefs.GetFloat("Energia");
+        Conocimiento = PlayerPrefs.GetFloat("Conocimiento");
+        VidaSocial = PlayerPrefs.GetFloat("VidaSocial");
+        Diversion = PlayerPrefs.GetFloat("Diversion");
+        NumeroDeDias = PlayerPrefs.GetInt("NumeroDeDias");
+        Genero = PlayerPrefs.GetString("Genero");
+    }
+    public void SaveData()
+    {
+        PlayerPrefs.SetString("Nombre",Nombre);
+        PlayerPrefs.SetInt("Edad", Edad);
+        PlayerPrefs.SetString("Genero", Genero);
+
+
+        PlayerPrefs.SetFloat("Energia", Energia);
+        PlayerPrefs.SetFloat("Conocimiento", Conocimiento);
+        PlayerPrefs.SetFloat("VidaSocial", VidaSocial);
+        PlayerPrefs.SetFloat("Diversion",Diversion);
+
+
+        PlayerPrefs.SetInt("NumeroDeDias", NumeroDeDias);
+
     }
 }
